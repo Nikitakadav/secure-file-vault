@@ -71,7 +71,7 @@ Files stored on a computer may contain sensitive or private information. If unau
 ### 1. Clone the Repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_LINK
+git clone https://github.com/Nikitakadav/secure-file-vault.git
 ```
 
 ### 2. Open the Project Folder
