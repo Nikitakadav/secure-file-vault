@@ -91,32 +91,3 @@ pip install pycryptodome
 ```bash
 python app.py
 ```
-
-## Screenshots
-
-### Main GUI
-
-![Main GUI](screenshots/main_gui.jpg)
-
-### File Encryption
-
-![Encryption](screenshots/encryption.jpg)
-
-### File Decryption
-
-![Decryption](screenshots/decryption.jpg)
-
-### Wrong Password Detection
-
-![Wrong Password](screenshots/wrong_password.jpg)
-
-## Project Demonstration
-
-The user selects a file and enters a password. The application generates an AES-256 key using PBKDF2, SHA-256 and a random salt. The file is then encrypted using AES-EAX and saved with the `.enc` extension.
-
-For decryption, the encrypted file and password are provided. The application verifies the authentication tag and decrypts the file only when the password and encrypted data are valid.
-
-## GitHub Repository Link
-
-**Repository:** 
-
